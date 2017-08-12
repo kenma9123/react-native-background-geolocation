@@ -23,7 +23,7 @@ public class BackgroundGeolocationPackage implements ReactPackage {
     return modules;
   }
 
-  @Override
+  // deprecated on 0.47 RN version
   public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
   }
